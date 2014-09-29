@@ -31,7 +31,7 @@ $FLAG
 
 .flag__image {
 
-    padding-right: $half-spacing-unit 
+    padding-right: $flexdd-half-spacing-unit;
 
     > img {
         display: block;
@@ -39,7 +39,7 @@ $FLAG
 
     .flag--rev & {
         padding-right: 0;
-        padding-left: $half-spacing-unit
+        padding-left: $flexdd-half-spacing-unit;
 
     }
 
