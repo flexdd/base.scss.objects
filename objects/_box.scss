@@ -27,12 +27,12 @@
 
 .box__media--left {
   float: left;
-  margin-right: $base-spacing-unit;
+  margin-right: $flexdd-base-spacing-unit;
 }
 
 .box__media--right { 
 	float: right; 
-	margin-left: $base-spacing-unit;  
+	margin-left: $flexdd-base-spacing-unit;  
 }
 
 .box__media img {
