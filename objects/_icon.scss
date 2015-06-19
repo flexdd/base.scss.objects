@@ -1,21 +1,25 @@
-/*------------------------------------*\
-    $ICON
-\*------------------------------------*/
+@import '../../sass-require/sass-require';
 
-.i {
-    position: relative;
-    zoom: 1;
-    
-    display: inline-block;
-    *display: block;
-    
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    line-height: 1;
-    vertical-align: middle;
-}
+@include define('icons') {
+  /*------------------------------------*\
+      $ICON
+  \*------------------------------------*/
 
-.i {
-    vertical-align: top;
+  .i {
+      position: relative;
+      zoom: 1;
+      
+      display: inline-block;
+      *display: block;
+      
+      font-style: normal;
+      font-weight: bold;
+      text-align: center;
+      line-height: 1;
+      vertical-align: middle;
+  }
+
+  .i {
+      vertical-align: top;
+  }
 }

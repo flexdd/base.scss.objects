@@ -1,50 +1,55 @@
-/*------------------------------------*\
-$FLAG
-\*------------------------------------*/
+@import '../../sass-require/sass-require';
 
-/**
-* Similar to the media/box object but allows for the control on alignment:
-* http://csswizardry.com/2013/05/the-flag-object/
-*
-*/
+@include define('flag') {
+  
+  /*------------------------------------*\
+  $FLAG
+  \*------------------------------------*/
 
-.flag {
-    display: table;
-    width: 100%;
-}
+  /**
+  * Similar to the media/box object but allows for the control on alignment:
+  * http://csswizardry.com/2013/05/the-flag-object/
+  *
+  */
 
-.flag__image,
-.flag__body {
+  .flag {
+      display: table;
+      width: 100%;
+  }
 
-    display: table-cell;
-    vertical-align: middle;
+  .flag__image,
+  .flag__body {
 
-    .flag--top & {
-        vertical-align: top;
-    }
+      display: table-cell;
+      vertical-align: middle;
 
-    .flag--bottom & {
-        vertical-align: bottom;
-    }
+      .flag--top & {
+          vertical-align: top;
+      }
 
-}
+      .flag--bottom & {
+          vertical-align: bottom;
+      }
 
-.flag__image {
+  }
 
-    padding-right: $flexdd-half-spacing-unit;
+  .flag__image {
 
-    > img {
-        display: block;
-    }
+      padding-right: $flexdd-half-spacing-unit;
 
-    .flag--rev & {
-        padding-right: 0;
-        padding-left: $flexdd-half-spacing-unit;
+      > img {
+          display: block;
+      }
 
-    }
+      .flag--rev & {
+          padding-right: 0;
+          padding-left: $flexdd-half-spacing-unit;
 
-}
+      }
 
-.flag__body {
-    width: 100%;
+  }
+
+  .flag__body {
+      width: 100%;
+  }
 }
