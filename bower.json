@@ -1,6 +1,6 @@
 {
   "name": "Flexdd Base Objects",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "authors": [
     "Adam Bulmer <mintuz1990@gmail.com>"
   ],
@@ -24,6 +24,7 @@
     "tests"
   ],
   "dependencies": {
-    "sass-require": "~1.0.1"
+    "sass-require": "~1.0.1",
+    "flexdd-base-settings": "~1.0.0"
   }
 }
